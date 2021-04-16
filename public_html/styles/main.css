@@ -1,0 +1,106 @@
+/* general */
+
+p, h1, h2, h3, h4, h5 {
+    font-family: Raleway;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin-bottom: 60px;
+    text-align: -moz-center;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+/* page structure */
+
+#grid_container {
+    display: grid;
+    grid-template-areas: "header" "content" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 10px;
+}
+
+/* header */
+
+header {
+    padding-top: 50px;
+    background-color: black;
+}
+
+#header_left {
+    padding: 2rem;
+    max-width: 150px;
+}
+
+#header_left img {
+    min-width: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header p {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+/* main content */
+
+main>h2 {
+    margin: 100px 0 75px 0;
+}
+
+main section {
+    margin: 0 0 150px 0;
+    align-content: center;
+}
+
+main section div {
+    margin: auto 2em;
+}
+
+main section p {
+    width: 48ch;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+main section img {
+    max-width: 300px;
+}
+
+.main_text {
+    margin: 150px 0;
+    text-align: -moz-center;
+}
+
+.main_text p {
+    line-height: 1.6;
+    width: 60ch;
+}
+
+#facebook_logo {
+    max-width: 45px;
+}
+
+section:last-child {
+    margin-bottom: 50px;
+}
+
+/* footer */
+
+footer {
+}
