@@ -5,6 +5,10 @@ p, h1, h2, h3, h4, h5 {
     padding: 8px 0;
 }
 
+img {
+    max-width: 100%;
+}
+
 a {
     color: black;
 }
@@ -18,6 +22,10 @@ h2 {
 
 h3 {
     font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.6rem;
 }
 
 .flex_container {
@@ -93,10 +101,6 @@ header {
     padding: 16px;
 }
 
-@media screen and (max-width: 150px) {
-
-}
-
 /* main content */
 
 main > h2 {
@@ -118,6 +122,13 @@ main section p {
     font-size: 1rem;
 }
 
+@media only screen and (max-width: 600px) {
+    main section p {
+        max-width: 48ch;
+        font-size: 1.6rem;
+    }
+}
+
 main section img {
     max-width: 300px;
 }
@@ -135,7 +146,7 @@ main section img {
 }
 
 #facebook_logo {
-    max-width: 45px;
+    max-width: 56px;
 }
 
 section:last-child {
