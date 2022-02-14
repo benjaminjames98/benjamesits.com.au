@@ -1,7 +1,7 @@
 /* general */
 
 p, h1, h2, h3, h4, h5 {
-    font-family: Raleway;
+    font-family: Raleway, serif;
     padding: 8px 0;
 }
 
@@ -14,18 +14,18 @@ a {
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 3.5em;
     margin-bottom: 60px;
     text-align: center;
     text-align: -moz-center;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
 }
 
 p {
-    font-size: 1.6rem;
+    font-size: 1.0em;
 }
 
 .flex_container {
@@ -33,6 +33,7 @@ p {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    max-width: 100%;
 }
 
 .flex-reverse {
@@ -125,7 +126,7 @@ main section p {
 @media only screen and (max-width: 600px) {
     main section p {
         max-width: 48ch;
-        font-size: 1.6rem;
+        font-size: 1em;
     }
 }
 
@@ -142,7 +143,7 @@ main section img {
 .main_text p {
     line-height: 1.6;
     max-width: 60ch;
-    margin: 16px auto;
+    margin: 24px auto;
 }
 
 #facebook_logo {
@@ -151,6 +152,10 @@ main section img {
 
 section:last-child {
     margin-bottom: 50px;
+}
+
+#address_link, #phone_link {
+    margin: 48px auto;
 }
 
 /* footer */
